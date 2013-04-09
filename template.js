@@ -58,9 +58,9 @@ exports.template = function(grunt, init, done) {
     props.devDependencies = {
     };
     props.peerDependencies = {
-      'grunt': props.grunt_version
     };
     props.dependencies = {
+      'grunt': props.grunt_version,
       'grunt-haggerston': 'git://github.com/haggerstonjs/grunt-haggerston.git',
       'grunt-contrib-clean': '~0.4.0',
       'grunt-contrib-copy': '~0.4.0',
