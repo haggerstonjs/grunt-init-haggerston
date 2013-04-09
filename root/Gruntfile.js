@@ -27,7 +27,8 @@ module.exports = function(grunt) {
       }
     },
     haggerston: {
-
+      src: '{%= src_path %}/',
+      dest: '{%= out_path %}/' 
     },
     watch: {
       content: {
