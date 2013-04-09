@@ -55,7 +55,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-haggerston');
 
-  grunt.registerTask('build', ['clean', 'copy', 'stylus', 'haggerston']);
+  grunt.registerTask('build', ['clean', 'copy', 'haggerston']);
   grunt.registerTask('serve', ['build', 'connect', 'watch']);
 
   grunt.registerTask('default', ['build']);
